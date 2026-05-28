@@ -31,7 +31,7 @@ while True:
                 print()
                 print("User Win!")
                 print()
-            elif (user_choice == "Snake" and com_choice == "Snake") or (user_choice == "Water" and com_choice == "Water") or (user_choice == "Gun" and com_choice == "Gun"):
+            elif (user_choice == com_choice):
                 print(f"User Choice is: {user_choice}")
                 print(f"Computer Choice is: {com_choice}")
                 print()
